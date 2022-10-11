@@ -1,0 +1,189 @@
+// .nav-header {
+//     height: 15vh;
+//     padding: 2.5vh 3vw 2.5vh 3vw;
+//     font-family: 'Rajdhani', sans-serif;
+//     position: fixed;
+//     z-index: 1;
+//     background-color: $dark-grey;
+//     top: 0;
+//     width: 100%;
+//     box-sizing: border-box;
+// }
+// // .nav-header__logo {
+// //     height: 50px;
+// //     width: 50px;
+// //     padding: 0px 5px;
+// // }
+// .nav-header__socials {
+//     position: relative;
+//     display: block;
+//     float: right;
+//     padding-top: 10px;
+// }
+// .github, .twitter, .linkedin, .instagram {
+//     width: 36px;
+//     height: 36px;
+// }
+// .page-title {
+//     display: inline;
+//     font-size: 2rem;
+//     font-weight: 600;
+// }
+
+// .page-header {
+//     font-weight: 400;
+// }
+
+// // hamburger menu
+// .menu-toggle {
+//     display: inline-block;
+//     position: relative;
+//     z-index: 1;
+//     user-select: none;
+//     a {
+//         text-decoration: none;
+//         color: $dark-grey;
+//     }
+//     a:hover {
+//         font-weight: 600;
+//     }
+// }
+
+// // this makes the checkbox bigger to cover the hamburger slices, hides the checkbox, but keeps it on the top layer. play with width and height to get the right proportion.
+// .menu-toggle .toggle {
+//     display: block;
+//     width: 40px;
+//     height: 32px;
+//     position: absolute;
+//     cursor: pointer;
+//     opacity: 0;
+//     z-index: 2;
+// }
+
+// // this assembles the hamburger slices. play with width and height to get the right proportion.
+// .menu-toggle span {
+//     display: block;
+//     width: 33px;
+//     height: 4px;
+//     margin-bottom: 5px;
+//     position: relative;
+//     background-color: $off-white;
+//     border-radius: 3px;
+//     z-index: 1;
+// }
+
+// // this transforms all the three slices of the hamburger into a crossmark when hidden checkbox is ticked.
+// // 1- this rotates all slices at 45deg and nudge them left and up a bit.
+// .menu-toggle .toggle:checked ~ span {
+//     opacity: 1;
+//     transform: rotate(45deg) translate(-2px, -1px);
+// }
+// // 2- this hides the middle slice with subtle effect.
+// .menu-toggle .toggle:checked ~ span:nth-last-child(3) {
+//     opacity: 0;
+//     transform: rotate(0) scale(0.2, 0.2);
+// }
+// // 3- this rotates the last slice to the other direction.
+// .menu-toggle .toggle:checked ~ span:nth-last-child(2) {
+//     transform: rotate(-45deg) translate(0, -1px);
+// }
+// // 4- this fixes the origin points and adds some transition
+// .menu-toggle {
+//     span {
+//         transform-origin: 4px 0px;
+//         transition: transform 0.5s ease-in;
+//                     opacity: 0.5s ease;
+//     }
+//     span:first-child {
+//         transform-origin: 0% 0%;
+//     }
+//     span:nth-last-child(2) {
+//         transform-origin: 0% 100%;
+//     }
+// }
+
+// // this positions menu box at top left but keeps it left of visible screen when hidden checkbox is unticked.
+// .menu {
+//     position: absolute;
+//     top: 15px;
+//     margin: 2.5vh 0 0 -60px;
+//     padding: 20px 50px;
+//     background-color: $off-white;
+//     opacity: 0.90;
+//     list-style-type: none;
+//     transform-origin: 0% 0%;
+//     transform: translate(-130%, 0);
+//     transition: transform 0.5s ease-in;
+//     li {
+//         padding: 10px 0 10px 35px;
+//         font-size: 22px;
+//     }
+// }
+
+// // this slides the menu box in from left to appear when hidden checkbox is ticked.
+// .menu-toggle .toggle:checked ~ ul {
+//     transform: none;
+// }
+
+// // breakpoint for tablet-size screens
+// @media only screen and (min-width: $tablet-size) {
+//     .page-title {
+//         font-size: 2.5rem;
+//     }
+//     .nav-header__logo {
+//     height: 45px;
+//     width: 45px;
+//     }
+//     .github, .twitter, .linkedin, .instagram {
+//         width: 42px;
+//         height: 42px;
+//     }
+//     .menu {
+//         width: 130px;
+//         li {
+//             padding-left: 35px;
+//             font-size: 28px;
+//         }
+//     }
+// }
+
+// // breakpoint for medium-size screens
+// @media only screen and (min-width: $medium-screen-size) {
+//     .page-title {
+//         font-size: 3rem;
+//     }
+//     .nav-header__logo {
+//         height: 55px;
+//         width: 55px;
+//     }
+//     .github, .twitter, .linkedin, .instagram {
+//         width: 48px;
+//         height: 48px;
+//     }
+//     .menu {
+//         width: 180px;
+//         left: -30px;
+//         li {
+//             padding-left: 35px;
+//             font-size: 25px;
+//         }
+//     }
+// }
+
+// // breakpoint for smaller-size screens
+// @media only screen and (max-width: $smaller-screen-size) {
+//     .page-title {
+//         font-size: 1.4rem;
+//     }
+//     .nav-header__logo {
+//         height: 35px;
+//         width: 35px;
+//     }
+//     .github, .twitter, .linkedin, .instagram {
+//         width: 32px;
+//         height: 32px;
+//     }
+//     .menu li {
+//         font-size: 20px;
+//     }
+// }
