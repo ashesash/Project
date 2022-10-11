@@ -1,8 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
 html {
   /* background-color: rgb(67, 199, 243); */
+  font-family: "Noto Sans";
 }
 
 nav {
+  text-transform: uppercase;
+  margin: 30px;
+  font-size: 10pt;
   float: right;
 }
 
