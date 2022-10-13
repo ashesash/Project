@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8" />
@@ -11,7 +10,6 @@
         <link rel="stylesheet" href="style.css" />
         <script src="main.js"></script>
     </head>
-
     <body>
         <main>
             <header>
@@ -30,23 +28,29 @@
                         </ul>
                     </div>
                 </nav>
-                <h1>
-                    Hi!<br>
-                    I'm Ash
-                </h1>
+                <div>
+                    <img src="./imgs/pic1.svg" alt="Aishwarya Sahu" class="img1">
+                </div>
+                <div class="hero">
+                    <h1>Hi! I'm <span class="auto-input"></span></h1>
+                </div>
+                <div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            var typed = new Typed(".auto-input", {
+                strings: ["Ash!", "a developer", "a mechanical engineer", "a traveller"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                loop: true
+            })
+        </script>
+                </div>
             </header>
             <div>
                 <p>
-                    I'm a Mechanical Engineer turned Software Developer based in Sydney.
-                </p>
-                <p>
                     I've lived in India, Bahrain, Canada and Sweden before moving to Australia.
                     Apart from being a bit of a vagabond I have 
-
                 </p>
-            </div>
-            <div>
-                <img src="./imgs/pic1.png" alt="Aishwarya Sahu">
             </div>
             <div id="Projects">
                 <h3>Here are some of my projects!</h3>
@@ -58,7 +62,7 @@
             </div>
         </main>
         <footer>
-            &#169 <script>document.write(new Date().getFullYear())</script> Aishwarya Sahu. All rights reserved.
+            <script>document.write(new Date().getFullYear())</script> Aishwarya Sahu. All rights reserved.
         </footer>
     </body>
 </html>
