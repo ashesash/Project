@@ -1,52 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
-
-html {
-  font-family: "Noto Sans";
-}
-
-nav {
-  text-transform: uppercase;
-  margin: 30px;
-  font-size: 10pt;
-  float: right;
-}
-
-img {
-  height: auto;
-  width: 20%;
-}
-
-.icons {
-  height: 30px;
-  width: auto;
-}
-
-.img1 {
-  height: auto;
-  width: 25%;
-}
-
-/* ------------------------------------------------------------------------ */
-
-footer {
-  font-size: 10px;
-  position: fixed;
-  bottom: 0;
-  padding: 5px 0 0 40%;
-  color: #3f4244;
-}
-
-@media only screen and (max-width: 600px) {
-  footer {
-    font-size: 2px;
-  }
-}
-@media only screen and (min-width: 1024px) {
-  footer {
-    font-size: 1rem;
-  }
-}
-.nav-header {
+/* .nav-header {
   position: fixed;
   display: flex;
   flex-direction: row-reverse;
@@ -54,7 +6,7 @@ footer {
   top: 0;
   width: 100%;
   box-sizing: border-box;
-}
+} */
 
 .menu-toggle {
   display: inline-block;
