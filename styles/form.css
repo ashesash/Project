@@ -1,20 +1,21 @@
 form {
-  margin: 50px auto;
+  margin: 60px auto;
   width: 80%;
 }
 
 .form-item {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   padding: 5px;
 }
 
 label {
   display: flex;
-  flex-basis: 100px;
-  align-items: flex-end;
-  margin-right: 30px;
+  flex-basis: 150px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  padding-right: 30px;
   font-size: 20px;
 }
 
@@ -23,13 +24,18 @@ label {
   width: 40vw;
   display: flex;
   justify-content: flex-start;
-  margin: 5px;
+  flex-wrap: wrap;
+  margin: 5px 30px;
   position: static;
   border: 1px solid #d7d4d4;
   /* background-color: #fff; */
   padding: 5px;
   font-size: 15px;
 }
+
+/* .form-item textarea{
+  margin-left: 5px;
+} */
 
 .form-item button {
   position: static;
@@ -77,5 +83,10 @@ h2 {
   .form-item input,
   .form-item textarea {
     width: 65vw;
+    margin-left: 0px;
+  }
+
+  label {
+    flex-basis: 90px;
   }
 }

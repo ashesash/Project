@@ -135,4 +135,9 @@ nav {
   .heading {
     padding: 5px;
   }
+
+  h1 {
+    width: 70vw;
+    margin: 0;
+  }
 }
