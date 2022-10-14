@@ -107,6 +107,15 @@ nav {
   }
 }
 
+@media (prefers-color-scheme: light) {
+  .linkedin {
+    filter: invert(0);
+  }
+  .github {
+    filter: invert(0);
+  }
+}
+
 @media (max-width: 720px) {
   html {
     /* height: auto; */

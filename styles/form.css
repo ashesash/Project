@@ -41,10 +41,14 @@ label {
   position: static;
   border: 1px solid #d7d4d4;
   background-color: #fff;
-  padding: 5px;
+  /* padding: 5px; */
   margin: 5px;
   font-size: 18px;
   width: 100px;
+}
+
+button {
+  color: #2d2c2c;
 }
 
 .form-item button:hover {
