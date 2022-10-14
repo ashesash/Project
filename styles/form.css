@@ -1,6 +1,6 @@
 form {
   margin: 50px auto;
-  width: 100%;
+  width: 80%;
 }
 
 .form-item {
@@ -29,11 +29,6 @@ label {
   /* background-color: #fff; */
   padding: 5px;
   font-size: 15px;
-}
-
-.form-item input:hover,
-.form-item textarea:hover {
-  border: 2px solid #100e0e;
 }
 
 .form-item button {
@@ -81,6 +76,6 @@ h2 {
 
   .form-item input,
   .form-item textarea {
-    width: 80vw;
+    width: 65vw;
   }
 }
