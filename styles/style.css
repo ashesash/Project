@@ -37,21 +37,24 @@ nav {
   float: right;
 }
 
+.main{
+  padding-left: 8vw;
+}
+
 .hero {
-  padding-left: 10vw;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
 
 #img1 {
-  /* padding-left: 10vw; */
   height: auto;
   width: 35vw;
   display: flex;
 }
 
 #img3 {
+  padding-top: 10vh;
   display: flex;
   justify-content: center;
 }
@@ -111,9 +114,9 @@ nav {
     flex-direction: column;
   }
 
-  .img1 {
+  #img1 {
     padding-top: 10vh;
-    width: 80vw;
+    width: 20vw;
   }
 
   .img2 {
