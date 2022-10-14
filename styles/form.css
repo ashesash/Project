@@ -66,7 +66,7 @@ h2 {
 @media (max-width: 720px) {
 
     h2 {
-        padding-top: 0vh;
+        padding-top: 2vh;
         padding-left: 12vh;
         margin-bottom: 0px;
       }
