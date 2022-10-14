@@ -16,7 +16,7 @@
 }
 .menu-toggle a {
   text-decoration: none;
-  color: #195780;
+  color: #373839;
 }
 .menu-toggle a:hover {
   font-weight: 600;
@@ -25,7 +25,7 @@
 .menu-toggle .toggle {
   display: block;
   width: 40px;
-  height: 32px;
+  /* height: 32px; */
   position: absolute;
   cursor: pointer;
   opacity: 0;
@@ -75,8 +75,8 @@
   margin: 0 0 0 -200px;
   padding: 20px 50px;
   text-align: end;
-  /* background-color: #afcfe9; */
-  opacity: 0.9;
+  background-color: #eaeaea;
+  /* opacity: 0.9; */
   list-style-type: none;
   transform-origin: 0% 0%;
   transform: translate(200%, 0);
@@ -84,7 +84,7 @@
 }
 .menu li {
   padding: 10px 0 10px 35px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .menu-toggle .toggle:checked ~ ul {

@@ -1,0 +1,46 @@
+
+
+form {
+    margin: 50px auto;
+    width: 90%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-item label {
+    flex-basis: 150px;
+    font-size: 22px;
+}
+
+.form-item input,
+.form-item textarea {
+    flex-basis: 50%;
+    border: 2px solid #767675;
+}
+
+.form-item input:hover,
+.form-item textarea:hover {
+    border: 2px solid #100e0e;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item button {
+    border: 1px solid #d7d4d4;
+    background-color: #FFF;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.form-item button:hover {
+    border: 2px solid #2d2c2c;
+}
+
+.form-item button {
+    width: 100px;
+}
