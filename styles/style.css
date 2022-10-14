@@ -15,6 +15,7 @@ html {
   );
   background-size: cover;
   background-repeat: no-repeat;
+  /* overflow: hidden; */
 }
 
 footer {
@@ -114,9 +115,9 @@ nav {
     flex-direction: column;
   }
 
-  #img1 {
+  #img1 img{
     padding-top: 10vh;
-    width: 20vw;
+    width: 80vw;
   }
 
   .img2 {

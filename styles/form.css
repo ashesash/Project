@@ -31,10 +31,6 @@ label {
   font-size: 15px;
 }
 
-/* .form-item textarea {
-  width: 208px;
-} */
-
 .form-item input:hover,
 .form-item textarea:hover {
   border: 2px solid #100e0e;
@@ -59,6 +55,7 @@ label {
   align-content: flex-start;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: 39vh;
 }
 
 h2 {
@@ -67,8 +64,16 @@ h2 {
 }
 
 @media (max-width: 720px) {
+
+    h2 {
+        padding-top: 0vh;
+        padding-left: 12vh;
+        margin-bottom: 0px;
+      }
   .allform {
     flex-direction: column;
+    padding-top: 5vh;
+    margin-bottom: 0vh;
   }
   .form-item{
     display:block;
