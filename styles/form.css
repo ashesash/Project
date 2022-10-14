@@ -64,25 +64,23 @@ h2 {
 }
 
 @media (max-width: 720px) {
-
-    h2 {
-        padding-top: 2vh;
-        padding-left: 12vh;
-        margin-bottom: 0px;
-      }
+  h2 {
+    padding-top: 2vh;
+    padding-left: 12vh;
+    margin-bottom: 0px;
+  }
   .allform {
     flex-direction: column;
     padding-top: 5vh;
     margin-bottom: 0vh;
   }
-  .form-item{
-    display:block;
+  .form-item {
+    display: block;
     margin-left: 10px;
   }
 
   .form-item input,
-.form-item textarea {
-  width: 80vw;
+  .form-item textarea {
+    width: 80vw;
+  }
 }
-
-
