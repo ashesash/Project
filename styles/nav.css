@@ -19,7 +19,7 @@
   color: #373839;
 }
 .menu-toggle a:hover {
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .menu-toggle .toggle {
@@ -80,11 +80,11 @@
   transform-origin: 0% 0%;
   transform: translate(200%, 0);
   transition: transform 0.5s ease-in;
+  width: 150px;
 }
 .menu li {
   padding: 10px 0 10px 20px;
   font-size: 15px;
-  width: 15vw;
 }
 
 .menu-toggle .toggle:checked ~ ul {
