@@ -149,4 +149,8 @@ nav {
     width: 70vw;
     margin: 0;
   }
+
+  .icons {
+    margin: 5vh 0 0 0;
+  }
 }
