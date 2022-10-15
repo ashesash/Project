@@ -141,10 +141,13 @@ nav {
     width: 80vw;
   }
 
-  #img3 img {
-    /* padding-top: 10vh; */
-    /* padding-left: 15vw; */
+  #img3 img{
+    padding-top: 0vh;
     width: 80vw;
+  }
+
+  #img3{
+    padding-top: 0vh;
   }
 
   .heading {
@@ -153,7 +156,7 @@ nav {
 
   h1 {
     width: 70vw;
-    margin: 0;
+    margin: 10px;
   }
 
   .icons {
