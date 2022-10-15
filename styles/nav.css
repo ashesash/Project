@@ -19,7 +19,11 @@
   color: #373839;
 }
 .menu-toggle a:hover {
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+.menu-toggle a:active {
+  color: aliceblue;
 }
 
 .menu-toggle .toggle {
