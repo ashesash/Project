@@ -54,6 +54,12 @@ nav {
   display: flex;
 }
 
+#img2 {
+  padding-top: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
 #img3 {
   padding-top: 10vh;
   display: flex;
