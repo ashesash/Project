@@ -104,14 +104,14 @@ nav {
   padding-right: 10px;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   .linkedin {
-    /* filter: invert(1); */
+    filter: invert(1);
   }
   .github {
-    /* filter: invert(1); */
+    filter: invert(1);
   }
-}
+} */
 
 @media (prefers-color-scheme: light) {
   .linkedin {
@@ -123,9 +123,6 @@ nav {
 }
 
 @media (max-width: 600px) {
-  html {
-    /* height: auto; */
-  }
   .hero {
     flex-direction: column;
   }
