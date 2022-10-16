@@ -157,9 +157,13 @@ nav {
 }
 
 @media (min-width: 810px) and (max-width: 1042px) {
+  html {
+    width: 100vw;
+  }
+
   #img3 img {
     padding-top: 0vh;
-    width: 40vw;
+    width: 30vw;
   }
 
   #img3 {
