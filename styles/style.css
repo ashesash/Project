@@ -104,7 +104,7 @@ nav {
   padding-right: 10px;
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   .linkedin {
     /* filter: invert(1); */
   }
@@ -120,9 +120,9 @@ nav {
   .github {
     filter: invert(0);
   }
-} */
+}
 
-@media (max-width: 720px) {
+@media (max-width: 600px) {
   html {
     /* height: auto; */
   }
@@ -160,5 +160,46 @@ nav {
 
   .icons {
     margin: 15vh 0 0 0;
+  }
+}
+
+@media  (min-width: 810px){
+  /* html {
+    height: auto;
+  }
+  .hero {
+    flex-direction: column;
+  }
+
+  #img1 img {
+    padding-top: 10vh;
+    width: 80vw;
+  }
+
+  #img2 img {
+    padding-top: 0vh;
+    width: 80vw;
+  }*/
+
+  #img3 img{
+    padding-top: 0vh;
+    width: 40vw;
+  }
+
+  #img3{
+    padding-top: 0vh;
+  }
+
+  .heading {
+    padding: 5px;
+  }
+
+  h1 {
+    width: 40vw;
+    margin: 10px;
+  }
+
+  .icons {
+    margin: 10vh 0 0 0;
   }
 }
