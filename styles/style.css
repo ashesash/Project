@@ -26,9 +26,9 @@ footer {
 }
 
 p {
-  width: 80%;
+  width: 70%;
   text-align: justify;
-  margin: 30px 10vw 20px 5vw;
+  margin: 30px 20vw 20px 10vw;
 }
 
 nav {
@@ -50,7 +50,7 @@ nav {
 
 #img1 img {
   height: auto;
-  width: 35vw;
+  width: 32vw;
   display: flex;
 }
 
@@ -79,7 +79,7 @@ nav {
 }
 
 .icons {
-  margin: 8vh 0 0 0;
+  margin: 10vh 0 0 0;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -127,6 +127,11 @@ nav {
     flex-direction: column;
   }
 
+  p {
+    width: 80%;
+    margin: 30px 20vw 20px 4vw;
+  }
+
   #img1 img {
     padding-top: 10vh;
     width: 80vw;
@@ -137,12 +142,12 @@ nav {
     width: 80vw;
   }
 
-  #img3 img{
+  #img3 img {
     padding-top: 0vh;
     width: 80vw;
   }
 
-  #img3{
+  #img3 {
     padding-top: 0vh;
   }
 
@@ -160,13 +165,13 @@ nav {
   }
 }
 
-@media  (min-width: 810px){
-  #img3 img{
+@media (min-width: 810px) {
+  #img3 img {
     padding-top: 0vh;
     width: 40vw;
   }
 
-  #img3{
+  #img3 {
     padding-top: 0vh;
   }
 
@@ -180,6 +185,6 @@ nav {
   }
 
   .icons {
-    margin: 10vh 0 0 0;
+    margin: 8vh 0 0 0;
   }
 }
