@@ -113,15 +113,6 @@ nav {
   }
 } */
 
-@media (prefers-color-scheme: light) {
-  .linkedin {
-    filter: invert(0);
-  }
-  .github {
-    filter: invert(0);
-  }
-}
-
 @media (max-width: 600px) {
   .hero {
     flex-direction: column;
@@ -165,7 +156,7 @@ nav {
   }
 }
 
-@media (min-width: 810px) {
+@media (min-width: 810px) and (max-width: 1042px) {
   #img3 img {
     padding-top: 0vh;
     width: 40vw;
