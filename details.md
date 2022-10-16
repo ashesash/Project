@@ -23,9 +23,19 @@ screenshot of contact page
 screenshot of send button being bolded
 
 ![screenshot of homepage on phone](./screenshots/ss7.png)
-
+screenshot of homepage on phone
 
 ![screenshot of projects page on phone](./screenshots/ss8.png)
-
+screenshot of projects page on phone
 
 ![screenshot of contact page on phone](./screenshots/ss9.png)
+screenshot of contact page on phone
+
+![screenshot of homepage on ipad](./screenshots/ss10.png)
+screenshot of homepage on ipad
+
+![screenshot of projects page on ipad](./screenshots/ss11.png)
+screenshot of projects page on ipad
+
+![screenshot of contact page on ipad](./screenshots/ss12.png)
+screenshot of contact page on ipad
