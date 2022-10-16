@@ -88,23 +88,11 @@
   width: 150px;
 }
 .menu li {
-<<<<<<< 473d54390ce9cbc092cfb5a1f675fe1132b46c36
   padding: 10px 0 10px 20px;
-=======
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
   padding: 10px 0 10px 20px;
-=======
   display: flex;
   justify-content:flex-end;
   padding: 10px 20px 10px 10px;
->>>>>>> Stashed changes
-=======
-  display: flex;
-  justify-content:flex-end;
-  padding: 10px 20px 10px 10px;
->>>>>>> Stashed changes
->>>>>>> Auto stash before checking out "HEAD"
   font-size: 15px;
 }
 
