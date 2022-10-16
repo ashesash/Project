@@ -1,8 +1,8 @@
 # Website Submission
 
-The link to the website is [[https://ashesash.github.io]]
+The link to the website is https://ashesash.github.io
 
-The link to the repository is [[https://github.com/ashesash/ashesash.github.io]]
+The link to the repository is https://github.com/ashesash/ashesash.github.io
 
 ![screenshot of homepage with dynamic heading](./screenshots/ss1.png)
 screenshot of homepage with dynamic heading
